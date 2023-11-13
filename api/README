@@ -1,0 +1,15 @@
+This directory contains the Python files that represent the application programming
+interface (API) for programming and controlling the robot.
+
+evobot.py      - This represent the robot and is always needed in a program
+head.py        - This is the class the present the head of the robot
+syringe.py     - This represents a syringe module
+
+evocam.py      - This provides an interface to the webcam attached to the EvoBot   		
+datalogger.py  - This a convenience class for logging data to the Terminal or a name file
+
+printcore.py   - This encapsulated communication with the robot - this is not suposed to be used
+	       	 directly by the programmer, it is used internally in the above classes
+
+physical.py    - This encapsulated the serial communication with the physical robot over a serial line
+simulated.py   - This replaces the serial communication with a simulation which can be used for testing purposes
