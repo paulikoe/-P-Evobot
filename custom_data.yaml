@@ -1,10 +1,13 @@
-train: /content/drive/MyDrive/Neural_network_yolo/training_data/images/Train/
-val: /content/drive/MyDrive/Neural_network_yolo/training_data/images/Val/
-
+train: ../training_data/images/Train/  # train images (relative to 'path') 118287 images
+val: ../training_data/images/Val/   # val images (relative to 'path') 5000 images
 # Classes
 nc: 1  # number of classes
 names: ['obj']  # class names
 
+
+
+#train: /content/drive/MyDrive/Neural_network_yolo/training_data/images/Train/
+#val: /content/drive/MyDrive/Neural_network_yolo/training_data/images/Val/
 
 #nc: 1  # number of classes
 # Classes
