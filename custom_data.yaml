@@ -1,6 +1,7 @@
 train: /content/drive/MyDrive/Neural_network_yolo/training_data/images/Train/
 val: /content/drive/MyDrive/Neural_network_yolo/training_data/images/Val/
 
+nc: 1  # number of classes
 # Classes
 names:
   0: QR
