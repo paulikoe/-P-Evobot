@@ -1,0 +1,10 @@
+Mac OS X 10.10:
+
+You need install MacPorts (http://macports.org) and then
+issue this command:
+
+sudo port install py27-pyqt5 qt5-mac py27-serial py27-sip py27-numpy opencv +python27
+
+EvoBot examples should then run from the terminal:
+
+python27 example.py

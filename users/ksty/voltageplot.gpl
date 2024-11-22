@@ -1,0 +1,10 @@
+set xdata time
+set timefmt "%H:%M:%S"
+set format x "%M:%S"
+#set zrange ["21:09:22.519991":"21:10:40.594100"]
+#set xrange [40:180]
+set ylabel "Voltage (V)"
+set xlabel "Time (minutes)"
+set term pdf
+set output "voltage.pdf"
+plot "experiments/voltage.dat" using 1:2 notitle with lines

@@ -1,0 +1,31 @@
+*.pyc
+firmware/Marlin/Visual Micro/Configuration.Debug.vmps.xml
+firmware/Marlin/Debug/Marlin.elf
+*.hex
+*.o
+firmware/Marlin/Visual Micro/.Marlin.vsarduino.h
+firmware/Marlin/Visual Micro/Compile.vmps.xml
+firmware/Marlin/Marlin.atsuo
+firmware/Marlin/Visual Micro/Upload.vmps.xml
+firmware/Marlin/Debug/Voltage.cpp.d
+firmware/Marlin/Debug/Adafruit-MCP23017/Adafruit_MCP23017.cpp.d
+
+settings/local.py
+examples/experiments
+
+.idea
+*.npy
+*.avi
+*.jpg
+droplet-postion.dat
+sample1.mov
+ide/
+firmware/Marlin/Debug/
+firmware/Marlin/Marlin.cppproj
+examples/multipleExperiments/log/ExperimentA_log-2016-09-29 17.50.47.csv
+firmware/Marlin/__vm/
+firmware/Marlin/Marlin_6_2.atsln
+firmware/Marlin/Marlin_6_2.cppproj
+examples/multipleExperiments/log/
+firmware/Marlin/Marlin.componentinfo.xml
+firmware/Marlin/.vs/

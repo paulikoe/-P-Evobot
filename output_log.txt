@@ -1,0 +1,76 @@
+ahoj
+You have XY options:
+1. Mixing two liquids.
+2. Dividing a larger volume into x beakers. 
+3 ... 
+To select, enter a digit without a dot on the following line
+Write the digit you choose: 1
+ahoj
+You have XY options:
+1. Mixing two liquids.
+2. Dividing a larger volume into x beakers. 
+3 ... 
+To select, enter a digit without a dot on the following line
+ahoj
+You have XY options:
+1. Mixing two liquids.
+2. Dividing a larger volume into x beakers. 
+3 ... 
+To select, enter a digit without a dot on the following line
+Write the digit you choose: ahoj
+You have XY options:
+1. Mixing two liquids.
+2. Dividing a larger volume into x beakers. 
+3 ... 
+To select, enter a digit without a dot on the following line
+Write the digit you choose: 1
+2
+ahoj
+You have XY options:
+1. Mixing two liquids.
+2. Dividing a larger volume into x beakers. 
+3 ... 
+To select, enter a digit without a dot on the following line
+Write the digit you choose: ahoj
+You have XY options:
+1. Mixing two liquids.
+2. Dividing a larger volume into x beakers. 
+3 ... 
+To select, enter a digit without a dot on the following line
+Write the digit you choose: ahoj
+You have XY options:
+1. Mixing two liquids.
+2. Dividing a larger volume into x beakers. 
+3 ... 
+To select, enter a digit without a dot on the following line
+ahoj
+You have XY options:
+1. Mixing two liquids.
+2. Dividing a larger volume into x beakers. 
+3 ... 
+To select, enter a digit without a dot on the following line
+Write the digit you choose: ahoj
+You have XY options:
+1. Mixing two liquids.
+2. Dividing a larger volume into x beakers. 
+3 ... 
+To select, enter a digit without a dot on the following line
+Write the digit you choose: ahoj
+You have XY options:
+1. Mixing two liquids.
+2. Dividing a larger volume into x beakers. 
+3 ... 
+To select, enter a digit without a dot on the following line
+Write the digit you choose: ahoj
+You have XY options:
+1. Mixing two liquids.
+2. Dividing a larger volume into x beakers. 
+3 ... 
+To select, enter a digit without a dot on the following line
+Write the digit you choose: ahoj
+You have XY options:
+1. Mixing two liquids.
+2. Dividing a larger volume into x beakers. 
+3 ... 
+To select, enter a digit without a dot on the following line
+Write the digit you choose: 

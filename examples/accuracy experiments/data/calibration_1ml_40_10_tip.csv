@@ -1,0 +1,15 @@
+iter,weight,Condtions: syringe: 1mlneedle: tip liquidtoAbsorb: 40airVolume: 10
+0,0.688,
+1,0.686,
+2,0.688,
+3,0.686,
+4,0.686,
+5,0.688,
+6,0.686,
+7,0.686,
+8,0.686,
+9,0.685,
+average: ,0.6865,
+std: ,0.001024695,
+,,
+,mm/ml,58.26656956

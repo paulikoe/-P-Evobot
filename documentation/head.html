@@ -1,0 +1,74 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module head</title>
+<meta charset="utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>head</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/Users/ksty/Documents/source/evobliss-software/api/head.py">/Users/ksty/Documents/source/evobliss-software/api/head.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="datetime.html">datetime</a><br>
+</td><td width="25%" valign=top><a href="threading.html">threading</a><br>
+</td><td width="25%" valign=top><a href="time.html">time</a><br>
+</td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="head.html#Head">Head</a>
+</font></dt></dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Head">class <strong>Head</strong></a></font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>This&nbsp;class&nbsp;encapsulated&nbsp;methods&nbsp;for&nbsp;controlling&nbsp;the&nbsp;head&nbsp;of&nbsp;the&nbsp;robot<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Head-__init__"><strong>__init__</strong></a>(self, _evobot, _xLimit<font color="#909090">=170</font>, _yLimit<font color="#909090">=200</font>)</dt><dd><tt>This&nbsp;method&nbsp;initializes&nbsp;the&nbsp;head&nbsp;class.&nbsp;The&nbsp;key&nbsp;parameter&nbsp;is&nbsp;evobot<br>
+to&nbsp;which&nbsp;this&nbsp;head&nbsp;is&nbsp;attached&nbsp;and&nbsp;the&nbsp;x&nbsp;and&nbsp;y&nbsp;limits&nbsp;of&nbsp;the&nbsp;robot<br>
+given&nbsp;in&nbsp;mm.</tt></dd></dl>
+
+<dl><dt><a name="Head-getX"><strong>getX</strong></a>(self)</dt><dd><tt>This&nbsp;returns&nbsp;the&nbsp;current&nbsp;x&nbsp;position&nbsp;of&nbsp;the&nbsp;robot</tt></dd></dl>
+
+<dl><dt><a name="Head-getY"><strong>getY</strong></a>(self)</dt><dd><tt>This&nbsp;returns&nbsp;the&nbsp;current&nbsp;y&nbsp;position&nbsp;of&nbsp;the&nbsp;robot</tt></dd></dl>
+
+<dl><dt><a name="Head-home"><strong>home</strong></a>(self)</dt><dd><tt>This&nbsp;method&nbsp;homes&nbsp;the&nbsp;head&nbsp;by&nbsp;moving&nbsp;it&nbsp;to&nbsp;towards&nbsp;the&nbsp;switches.<br>
+Once,&nbsp;the&nbsp;switches&nbsp;are&nbsp;engaged&nbsp;that&nbsp;position&nbsp;is&nbsp;defined&nbsp;to&nbsp;be&nbsp;(0,0).<br>
+The&nbsp;method&nbsp;blocks&nbsp;the&nbsp;caller&nbsp;until&nbsp;the&nbsp;robot&nbsp;has&nbsp;completed<br>
+the&nbsp;movement.</tt></dd></dl>
+
+<dl><dt><a name="Head-move"><strong>move</strong></a>(self, x, y)</dt><dd><tt>This&nbsp;method&nbsp;moves&nbsp;the&nbsp;head&nbsp;to&nbsp;the&nbsp;position&nbsp;(x,y)&nbsp;specified&nbsp;in&nbsp;mm.<br>
+The&nbsp;method&nbsp;blocks&nbsp;the&nbsp;caller&nbsp;until&nbsp;the&nbsp;robot&nbsp;has&nbsp;completed<br>
+the&nbsp;movement.</tt></dd></dl>
+
+<dl><dt><a name="Head-moveContinously"><strong>moveContinously</strong></a>(self, x, y)</dt><dd><tt>This&nbsp;method&nbsp;homes&nbsp;the&nbsp;head&nbsp;by&nbsp;moving&nbsp;it&nbsp;to&nbsp;towards&nbsp;the&nbsp;switches.<br>
+Once,&nbsp;the&nbsp;switches&nbsp;are&nbsp;engaged&nbsp;that&nbsp;position&nbsp;is&nbsp;defined&nbsp;to&nbsp;be&nbsp;(0,0).<br>
+The&nbsp;method&nbsp;does&nbsp;not&nbsp;block&nbsp;the&nbsp;caller&nbsp;hence&nbsp;the&nbsp;robot&nbsp;may&nbsp;not&nbsp;have<br>
+completed&nbsp;the&nbsp;movement&nbsp;before&nbsp;it&nbsp;returns.</tt></dd></dl>
+
+<dl><dt><a name="Head-park"><strong>park</strong></a>(self)</dt><dd><tt>This&nbsp;method&nbsp;parks&nbsp;the&nbsp;head&nbsp;safely&nbsp;in&nbsp;preparation&nbsp;for&nbsp;shutdown<br>
+of&nbsp;the&nbsp;robot.&nbsp;This&nbsp;is&nbsp;currently&nbsp;done&nbsp;by&nbsp;executing&nbsp;the&nbsp;home&nbsp;command.</tt></dd></dl>
+
+<dl><dt><a name="Head-setDataLogger"><strong>setDataLogger</strong></a>(self, logger)</dt><dd><tt>This&nbsp;sets&nbsp;the&nbsp;data&nbsp;logger&nbsp;for&nbsp;the&nbsp;head.&nbsp;The&nbsp;data&nbsp;consist<br>
+of&nbsp;the&nbsp;time,&nbsp;x,&nbsp;and&nbsp;y&nbsp;postions&nbsp;of&nbsp;the&nbsp;robot.&nbsp;The&nbsp;argument<br>
+is&nbsp;a&nbsp;function&nbsp;that&nbsp;takes&nbsp;a&nbsp;string&nbsp;as&nbsp;input.</tt></dd></dl>
+
+</td></tr></table></td></tr></table>
+</body></html>

@@ -1,0 +1,13 @@
+set zdata time
+set timefmt "%H:%M:%S"
+set format z "%M:%S"
+#set zrange ["21:09:22.519991":"21:10:40.594100"]
+set xrange [40:180]
+set xlabel "x-coordinate (mm)"
+set ylabel "y-coordinate (mm)"
+set zlabel "time (minutes)" rotate by 90
+set ztics "14:15:30",60,"14:20:30"
+set view 40, 30, 1, 1
+set term pdfcairo font "Times New Roman"
+set output "trace.pdf"
+splot "experiments/head.dat" every 30 using 2:3:1 notitle with lines
