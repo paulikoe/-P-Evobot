@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a481d0dff1f52e5c48427b0375e8c3373f8598f495a5598b04d99b59b649ac6a
-size 792
+def load_coordinates_from_file():
+    """Načte souřadnice z textového souboru a odstraní nechtěné znaky."""
+    coordinates = {}
+    with open("C:\Python\\afaina-evobliss-software-68090c0edb16\\automatizace\data\coord_try.txt", 'r') as file:
+        lines = file.readlines()
+        for line in lines:
+            # Odstranění nechtěných znaků, jako jsou závorky nebo čárky
+            clean_line = line.replace('(', '').replace(')', '').replace(',', '').strip()
+            parts = clean_line.split()
+
+            if len(parts) == 3:
+                name, x, y = parts[0], float(parts[1]), float(parts[2])
+                coordinates[name] = (x, y)
+    return coordinates
+
+
+# Použití funkce:
+coordinates = load_coordinates_from_file()
+print(coordinates)
+
