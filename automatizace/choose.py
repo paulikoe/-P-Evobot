@@ -35,27 +35,3 @@ def choose_assignment(assignment_input,indices_from_gui,volume1,volume2):
         elif assignment == 2:
                 assignment_2(volume1,coords_leftc,coords_watc,coords_goalc,coords_beak1c)
         return coords_watc
-'''
-from assignment1 import assignment_1
-from assignment2 import assignment_2
-from index_coordinate import index_coordinates
-
-def choose_assignment(inputs):
-    assignment = int(inputs[0])  # Vstup uživatele
-
-    coords = index_coordinates(assignment, inputs[1:])  # Získání souřadnic na základě zadání
-
-    # Nastavení souřadnic
-    coords_leftc = coords.get("leftovers")
-    coords_watc = coords.get("water")
-    coords_goalc = coords.get("goal beaker")
-    coords_beak1c = coords.get("beaker1")
-    coords_beak2c = coords.get("beaker2", None)  # beaker2 exists only for assignment 1
-
-    print(coords_beak1c, coords_goalc, coords_beak2c, coords_leftc, coords_watc)
-
-    if assignment == 1:
-        assignment_1()
-    elif assignment == 2:
-        assignment_2()
-'''
