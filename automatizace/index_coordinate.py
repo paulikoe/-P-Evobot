@@ -49,31 +49,6 @@ def linesF():
         return file.readlines()
 
 
-'''
-def index_coordinates(assignment, inputs):
-    required_beakers = None
-
-    if assignment == 1:
-        required_beakers = ["leftovers", "water", "goal beaker", "beaker1", "beaker2"]
-    elif assignment == 2:
-        required_beakers = ["leftovers", "water", "beaker1", "goal beaker"]
-    if required_beakers is None:
-        raise ValueError("Invalid assignment value.")
-        
-    indices = {}
-
-    # Retrieve indexes for each required beaker
-    for i, beaker in enumerate(required_beakers):
-        indices[beaker] = int(inputs[i])  # Získání indexu ze vstupů
-
-    # Retrieve coordinates from the file based on the indices
-    lines = linesF()
-    coordinates = {beaker: get_coords(index, lines) for beaker, index in indices.items()}
-
-    return coordinates
-
-# Zbytek kódu zůstává stejný
-'''
 
 
 
