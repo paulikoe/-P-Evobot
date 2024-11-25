@@ -4,7 +4,6 @@ import os
 
 '''
 Bylo potřeba stáhnout celý soubor yolov5 z colabu, poté nastavit váhy, bez nich to nešlo. 
-Byl problém, že Windows tento soubor nezvládá, proto do souboru detect, byly přidány řádky s úpravou (viz detect.py)
 best.py jsou zatím moje nejlepší váhy
 '''
 
