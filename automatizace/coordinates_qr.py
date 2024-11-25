@@ -36,15 +36,7 @@ def calibration(ref_point, xx,xy,xz, target_points):
         xy,
         xz
     ])
-    '''
-     # Detekované souřadnice QR kódů v obraze po posunutí kamery --> kamera prevraci vertikalne obraz, proto to minus
-    detected_points = np.float32([
-        [ref_point[0], -ref_point[1]],  # invert y souřadnici
-        [xx[0], -xx[1]],                # invert y souřadnici
-        [xy[0], -xy[1]],                # invert y souřadnici
-        [xz[0], -xz[1]]                 # invert y souřadnici
-    ])
-    '''
+   
     # Vypočítáme homografickou matici
     H, status = cv2.findHomography(detected_points, real_world_points)
 
@@ -124,21 +116,6 @@ def coordinates():
 
             x_new = ((x_diff)+67)*2 #přepočet od pipety
             y_new = ((y_diff)-37)*2
-            
-           #pokus
-
-            x_diff_pokus = target_points[i][1] - ref_point[0]
-            y_diff_pokus = target_points[i][2] - ref_point[1]
-            
-            xx_new_pokus = (x_diff_pokus * -0.26)
-            yy_new_pokus = (y_diff_pokus * -0.26)
-            print(yy_new_pokus,xx_new_pokus)
-            
-           # x_new = ((x_diff * (-0.26))-37)*2 #přepočet od pipety pro robota - pro pin 9
-           # y_new = ((y_diff * (-0.26))+67)*2
-            
-            #print("_")
-            #print(x_new,y_new)
 
         # Vytvoříme novou souřadnici
             new_point = [QR_values[i], x_new, y_new] #Kamera pravděpodobně otáčí souřadnice, 
