@@ -140,7 +140,10 @@ class Console(tk.Frame):
     def start_thread_fast(self):
         """Clicking on the start button starts the run_control 
         system (fast version) function in another thread - so the script will 
-        run in a different thread than the gui"""
+        run in a different thread than the gui
+        This version skips detection and obtaining coordinates. 
+        It is used for quick access if the user has already 
+        performed detection (Start button) once."""
 
         threading.Thread(target=self.run_control_system_fast).start()
 
